@@ -12,3 +12,16 @@
   background-color: black;
   height: 2px;
 }
+
+.nf-main-container {
+  width: 500px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
+}
