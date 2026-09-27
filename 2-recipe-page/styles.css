@@ -1,0 +1,14 @@
+.hr-boldest {
+  background-color: black;
+  height: 10px;
+}
+
+.hr-bold {
+  background-color: black;
+  height: 5px;
+}
+
+.hr-light-bold {
+  background-color: black;
+  height: 2px;
+}
