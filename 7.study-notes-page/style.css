@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
+}
+
+body {
+  width: 100vw;
+}
+
+.brand-icon {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 10px;
+  padding-left: 30px;
+  align-items: center;
+  height: 15vh;
+  position: sticky;
+}
+
+#hero-section {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-item1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 50px;
+}
+
+.hero-container {
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  height: 400px;
+}
+
+img.hero-item2 {
+  width: 60%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#buy-btn {
+  padding: 10px;
+  width: 100px;
+  margin: auto;
+  border-radius: 5px;
+}
