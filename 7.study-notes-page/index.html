@@ -10,11 +10,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-brands/css/uicons-brands.css"
+    />
     <title>One Page</title>
   </head>
   <body>
     <nav class="nav-bar">
       <a href="#" class="brand-icon">OnePage</a>
+      <div class="nav-links">
+        <a href="#features-section" class="nav-link">about</a>
+        <a href="#prices-section" class="nav-link">prices</a>
+      </div>
     </nav>
     <section id="hero-section">
       <div class="hero-container">
@@ -29,6 +37,59 @@
         />
       </div>
       <button id="buy-btn">Buy Now</button>
+    </section>
+    <section id="features-section">
+      <div class="features-grid-container">
+        <p class="grid-item">Customize</p>
+        <img
+          src="https://images.unsplash.com/photo-1689068721962-55538d1b6fa6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+          alt=""
+          class="grid-item"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1527219525722-f9767a7f2884?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+          alt=""
+          class="grid-item"
+        />
+        <p class="grid-item">Organize</p>
+        <p class="grid-item">Study</p>
+        <img
+          src="https://images.unsplash.com/photo-1712762056200-50d8f803ba10?q=80&w=1274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+          alt=""
+          class="grid-item"
+        />
+      </div>
+    </section>
+    <section id="prices-section">
+      <div class="card free">
+        <ul>
+          <li>5 notebooks</li>
+          <li>5 folders</li>
+          <li>free templates</li>
+        </ul>
+        <button class="price-btn">choose this plan</button>
+      </div>
+      <div class="card paid">
+        <ul>
+          <li>unlimited notebooks</li>
+          <li>unlimited folders</li>
+          <li>no ads</li>
+          <li>larger template choices</li>
+          <li>more customization options</li>
+        </ul>
+        <button class="price-btn">choose this plan</button>
+      </div>
+    </section>
+    <section id="contacts">
+      <a href="" class="contact"
+        ><i class="fi fi-brands-twitter-alt-square"></i
+      ></a>
+      <a href="" class="contact"
+        ><i class="fi fi-brands-facebook-square"></i
+      ></a>
+      <a href="" class="contact"
+        ><i class="fi fi-brands-instagram-square"></i
+      ></a>
     </section>
   </body>
 </html>

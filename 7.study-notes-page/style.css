@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: "Google Sans Flex", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -14,6 +15,7 @@
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .brand-icon {
@@ -27,9 +29,20 @@ body {
   display: flex;
   padding: 10px;
   padding-left: 30px;
+  justify-content: space-between;
   align-items: center;
   height: 15vh;
-  position: sticky;
+  width: 90vw;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 #hero-section {
@@ -54,6 +67,7 @@ body {
   padding: 40px;
   display: flex;
   height: 400px;
+  gap: 180px;
 }
 
 img.hero-item2 {
@@ -68,7 +82,87 @@ img.hero-item2 {
 
 #buy-btn {
   padding: 10px;
-  width: 100px;
+  width: 150px;
   margin: auto;
   border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+#features-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.features-grid-container {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 200px;
+  row-gap: 0px;
+}
+
+.features-grid-container > * {
+  /* height: 200px; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+#prices-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.card {
+  border: 1px solid;
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  margin: 15px;
+}
+
+.price-btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#contacts {
+  height: 40vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 50px;
+}
+
+.fi {
+  color: white;
+  font-size: 50px;
 }
